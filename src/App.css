@@ -1,0 +1,39 @@
+/* Estilo geral da barra de navegação */
+nav {
+  background-color: #141414;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+/* Lista dos links */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo padrão de cada link/botão do menu */
+nav ul li a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+
+/* Efeito ao passar o rato por cima */
+nav ul li a:hover {
+  color: #b3b3b3;
+}
+
+/* Efeito automático do React Router para a página ativa */
+nav ul li a.active {
+  color: #ffffff;
+  font-weight: 700;
+  border-bottom: 2px solid #e50914; /* Linha vermelha de destaque na aba ativa */
+}
