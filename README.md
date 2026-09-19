@@ -76,7 +76,7 @@ Cuidado adotado: as sugestões da IA foram lidas, testadas e ajustadas pelo inte
 
 ```bash
 # 1. Baixe o projeto
-git clone <https://github.com/ValdemarRocha/proximo-tv-time>
+git clone https://github.com/ValdemarRocha/proximo-tv-time
 cd CP1-TV-time
 
 # 2. Instale as dependências
